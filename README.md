@@ -15,7 +15,6 @@ Rediseñar los tres diagramas de **procesos de negocio AS-IS** a la versión **T
 
 ### 2. BPMN TO-BE (Rediseño)
 * Realizar el modelo de procesos de negocio mejorado (TO-BE).
-* **Códigos de Color:** 🟠 Naranjo para elementos nuevos. 🟡 Amarillo para elementos modificados.
 * Usar una nota para elementos eliminados.
 * Se evalúa la aplicación de **buenas prácticas de rediseño** y la inclusión de tareas que generen **requerimientos de software**.
 
