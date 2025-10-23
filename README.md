@@ -1,4 +1,9 @@
-# MA-Evaluacion-2: Rediseño de Procesos y Modelado de Requerimientos
+# Evaluacion 2 Metodologia de Analisis
+### Integrantes
+* Anais	Muñoz	Morales
+* Diego	Valenzuela	Parada
+* Pedro	Jeria	Donaire
+* Maximiliano	Sepúlveda	Lufin 
 
 ## 🎯 Objetivo
 
@@ -6,43 +11,41 @@ Rediseñar los tres diagramas de **procesos de negocio AS-IS** a la versión **T
 
 ---
 
-## ✅ Criterios de Evaluación (Según Rúbrica)
+## ✅ Criterios de Evaluación
 
-### 1. Corrección de Diagramas Anteriores (Evaluación 1)
+### 1. Corrección de Diagramas Anteriores
 * Diagramas a corregir: Dependencias Estratégicas, Racionalidad Estratégica y Procesos AS-IS.
-* El modelo AS-IS debe marcar las actividades manuales a automatizar.
-* Se evalúa la **Comprensibilidad**, **Correctitud** y **Representación precisa del dominio** en los tres modelos.
+* El modelo AS-IS debe tener indicadas las actividades manuales que se automatizarán o soportarán con tecnología en el proceso rediseñado.
+* Se evalúan las dimensiones de **Comprensibilidad**, **Correctitud** y **Representación precisa del dominio**.
 
 ### 2. BPMN TO-BE (Rediseño)
-* Realizar el modelo de procesos de negocio mejorado (TO-BE).
-* Usar una nota para elementos eliminados.
-* Se evalúa la aplicación de **buenas prácticas de rediseño** y la inclusión de tareas que generen **requerimientos de software**.
+* Realizar el modelo de procesos de negocio mejorado (TO-BE), aplicando mejores prácticas de rediseño.
+* **Códigos de Color:** 🟣 Morado para elementos nuevos. 🟡 Amarillo para elementos modificados.
+* Poner una nota en el diagrama si hay elementos eliminados.
+* Se evalúa la aplicación de **buenas prácticas de rediseño** y la incorporación de tareas que generen **requerimientos de software**.
 
 ### 3. Requerimientos (UML)
-Se debe modelar para **uno de los procesos** BPMN TO-BE.
+Se debe realizar el Diagrama de Casos de Uso, la especificación de un Caso de Uso y el Modelo de Dominio para **uno de los procesos** BPMN TO-BE.
 
 | Producto | Criterio Clave |
 | :--- | :--- |
-| **Diagrama de Casos de Uso** | Correcta notación y consistencia entre Casos de Uso (CU) y tareas con tecnología del BPMN TO-BE. |
-| **Especificación de Caso de Uso** | Flujo normal, alternativos y de excepción. Debe ser el CU más importante y especificar lógica de negocio y cambios de estado. |
-| **Modelo de Dominio** | Consistencia con la especificación del CU. Correcta notación de entidades, atributos (tipos básicos) y relaciones (asociación, agregación, composición, herencia). |
+| **Diagrama de Casos de Uso** | Correcta notación de actores, CU y sus relaciones. Los CU deben corresponder a las tareas con soporte de tecnología del BPMN TO-BE, y sus actores deben ser consistentes. |
+| **Especificación de Caso de Uso** | Debe ser el CU más importante. Debe incluir flujo normal, alternativos y de excepción. |
+| **Modelo de Dominio** | Consistencia con la especificación de casos de uso, correcta notación de atributos (tipos básicos) y relaciones (asociación, agregación, composición y herencia). |
 
 ---
 
 ## 📂 Requisitos del Repositorio (3 Issues)
 
-Los modelos deben ser subidos al repositorio de GitHub siguiendo esta estructura:
+El repositorio debe contener los archivos organizados en los siguientes *issues*:
 
 ### **1. Issue: BPMN TO-BE**
-* Imágenes de los diagramas BPMN TO-BE.
-* Archivos fuente (`.bpmn` o similar) de los diagramas BPMN.
+* Imágenes de diagramas BPMN TO-BE.
+* Archivos fuente de BPMN.io de los mismos diagramas.
 
 ### **2. Issue: Modelado UML**
 * Diagrama de Casos de Uso.
 * Modelo de Dominio.
-* **Archivo de proyecto Visual Paradigm** (Nota: **NO** incluir la especificación de caso de uso en este archivo).
 
 ### **3. Issue: Especificación de Caso de Uso**
-* Documento con la especificación del caso de uso seleccionado (Word, PDF, etc.).
-
----
+* Un documento Word o similar con la especificación del caso de uso seleccionado.
